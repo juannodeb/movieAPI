@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class Api::V1::UserMoviesController < ApplicationController
+  before_action :authenticate_user!
+
   def index
     user_movies = UserMovie.where(user_id: params[:user_id])
     movies = Movie.where(id: user_movies.map(&:id))
