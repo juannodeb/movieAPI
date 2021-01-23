@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       mount_devise_token_auth_for 'User', at: 'auth'
 
       resources :movies, only: [:index, :show]
-      resources :user_movies, path: 'favorites', only: [:index]
+      resources :user_movies, path: 'favorites', only: [:index, :create]
     end
   end
 end
