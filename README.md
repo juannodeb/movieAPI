@@ -1,6 +1,20 @@
 # movieAPI
 
-### How to use
+### About
+
+movieAPI is an application I developed to improve my programming/developer skills. It uses two
+different projects or applicantions, one (the backend) is a Ruby on Rails API app and the other
+one (the frontend) is a React.js app which uses material-ui.
+
+The backend app repository can be found [here](https://github.com/juannodeb/movieAPI).
+
+The frontend app repository can be found [here](https://github.com/juannodeb/movie_client).
+
+Live demos:
+
+Frontend in [Heroku](https://dev-movieapi-front.herokuapp.com/)
+Backend in [Heroku](https://dev-movieapi-back.herokuapp.com/)
+### How to use (if not using Heroku)
 
 1. Open your terminal.
 
@@ -37,20 +51,21 @@
    To run all the tests you have to use `bundle exec rspec` or any variation of it in case you want to run any specific test.
 
 
-### About & Disclaimers
+### Disclaimers
 
 1. Made with ruby 2.5.1 and rails 6.0.3
 
-2. Version 1.0 (Jan 2021)
+2. Version 1.1 (Jan 2021)
 
-3. Repository contains an still in progress RoR API project
+3. Repository contains the MVP version of the movieAPI as an RoR API project
 
-4. Not all the functionality is fully tested nor the app is working as expected as of version 1 of the project
+4. Not all the functionality is fully tested with rspec
 
 
 ### Improvements
 
-1. Finish MVP/full functionality of the project to work with the front side app
-2. Add missing tests (currently only models are getting tested)
-3. Refactor on the overall project
+1. Add missing tests (currently only models are getting tested)
+2. Refactor on the overall project
+3. Add Search funcionality
+4. Add new Movie funcionality
 
