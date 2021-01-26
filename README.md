@@ -1,5 +1,6 @@
 # movieAPI
-
+---
+---
 ### About
 
 movieAPI is an application I developed to improve my programming/developer skills. It uses two
@@ -10,10 +11,14 @@ The backend app repository can be found [here](https://github.com/juannodeb/movi
 
 The frontend app repository can be found [here](https://github.com/juannodeb/movie_client).
 
-Live demos:
+**Live demos (Migth not work due to free dynos usage):**
 
 Frontend in [Heroku](https://dev-movieapi-front.herokuapp.com/)
+
 Backend in [Heroku](https://dev-movieapi-back.herokuapp.com/)
+
+---
+
 ### How to use (if not using Heroku)
 
 1. Open your terminal.
@@ -50,6 +55,7 @@ Backend in [Heroku](https://dev-movieapi-back.herokuapp.com/)
 
    To run all the tests you have to use `bundle exec rspec` or any variation of it in case you want to run any specific test.
 
+---
 
 ### Disclaimers
 
@@ -61,6 +67,7 @@ Backend in [Heroku](https://dev-movieapi-back.herokuapp.com/)
 
 4. Not all the functionality is fully tested with rspec
 
+---
 
 ### Improvements
 
@@ -69,3 +76,5 @@ Backend in [Heroku](https://dev-movieapi-back.herokuapp.com/)
 3. Add Search funcionality
 4. Add new Movie funcionality
 
+---
+---
